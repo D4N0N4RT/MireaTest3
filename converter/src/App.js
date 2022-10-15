@@ -1,5 +1,6 @@
 import './App.css';
 import {useState} from "react";
+import {solve} from "./solution";
 function App() {
   const [value1, setValue1] = useState(null);
   const [value2, setValue2] = useState(null);
@@ -169,7 +170,7 @@ function App() {
 
         </div>
 
-        <h1>Результат: {(value1/value2*(+value3))}</h1>
+        <h1>Результат: {solve(value1, value2, value3)}</h1>
 
       </div>
   );
