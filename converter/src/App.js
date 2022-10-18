@@ -22,13 +22,6 @@ function App() {
             <h2>Выберите базовую величину:</h2>
 
             <div>
-              <input type="radio" id="Милли" name="value" value="Сантиметр" onChange={(e)=>{
-                setValue1(0.01);
-              }}/>
-              <label htmlFor="Милли">Миллиметр</label>
-            </div>
-
-            <div>
               <input type="radio" id="Санти" name="value" value="Сантиметр" onChange={(e)=>{
                 setValue1(1);
               }}/>
@@ -96,13 +89,6 @@ function App() {
             e.preventDefault();
           }}>
             <h2>Выберите величину, в которую хотите перевести:</h2>
-
-            <div>
-              <input type="radio" id="Милли" name="value" value="Сантиметр" onChange={(e)=>{
-                setValue2(0.01);
-              }}/>
-              <label htmlFor="Милли">Миллиметр</label>
-            </div>
 
             <div>
               <input type="radio" id="Санти" name="value" value="Сантиметр" onChange={(e)=>{
