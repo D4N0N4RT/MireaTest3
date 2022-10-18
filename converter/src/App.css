@@ -1,4 +1,4 @@
-.translators{
+.values{
   display: flex;
   flex-flow: row nowrap;
   column-gap: 100px;
@@ -6,7 +6,7 @@
 
 form{
   width:40%;
-  border: 2px solid black;
+  border: 2px solid red;
   border-radius: 20px;
   padding: 10px;
   margin: 20px 0 20px 0;

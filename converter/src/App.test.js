@@ -8,8 +8,8 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-describe("Tests", () => {
-  test('My first test', () => {
+describe("Value conversion tests", () => {
+  test('First test', () => {
     expect(Math.max(1, 5, 10)).toBe(10);
   });
 

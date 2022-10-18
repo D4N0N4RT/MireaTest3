@@ -15,7 +15,7 @@ function App() {
             setValue1(1)
           }
         }}/>
-        <div className={"translators"}>
+        <div className={"values"}>
           <form onSubmit={(e)=>{
             e.preventDefault();
           }}>
